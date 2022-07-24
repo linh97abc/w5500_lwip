@@ -58,4 +58,5 @@ void wizchip_interrupt_init(uint8_t socket, void (*callback)(void *))
 #else
     alt_irq_register(WIZ_GPIO_INT_IRQ, NULL, callback_ptr);
 #endif
+    (void)ret_val;
 }
