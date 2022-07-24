@@ -1,0 +1,7 @@
+.vscode
+*.elf
+*.map
+*.objdump
+obj/
+.settings
+.force_relink
